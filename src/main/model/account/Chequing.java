@@ -15,7 +15,7 @@ public class Chequing extends Account {
 
     @Override
     public void deposit(double amount) {
-
+        super.setBalance(super.round(super.getBalance() + amount));
     }
 
     @Override
@@ -25,11 +25,10 @@ public class Chequing extends Account {
             return false;
         } else if (super.getBalance() - amount < 0) {
             super.setBalance(super.round(super.getBalance() - amount - OVERDRAFT_FEE));
-            return true;
         } else {
             super.setBalance(super.round(super.getBalance() - amount));
-            return true;
         }
+        return true;
 
     }
 
