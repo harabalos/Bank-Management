@@ -37,3 +37,9 @@ The bank keeps a record of every account created and transaction made.
 The id of a transaction matches the id of an account. 
 Depending on the account, some transactions may be denied.
 The bank can deduct taxes from taxable accounts.
+
+---------------------------------------------------------------------------------
+
+This is a challenge from "The Complete Java Development Bootcamp" course in Udemy
+Its purpose is to learn writing java the correct way.
+
