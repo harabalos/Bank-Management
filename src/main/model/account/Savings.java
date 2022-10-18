@@ -12,6 +12,11 @@ public class Savings extends Account {
     }
 
     @Override
+    public Account clone() {
+        return new Savings(this);
+    }
+
+    @Override
     public void deposit(double amount) {
         super.setBalance(super.round(super.getBalance() + amount));
     }
