@@ -41,5 +41,5 @@ The bank can deduct taxes from taxable accounts.
 ---------------------------------------------------------------------------------
 
 This is a challenge from "The Complete Java Development Bootcamp" course in Udemy
-Its purpose is to learn writing java the correct way.
+Its purpose is to write high quality java code.
 
