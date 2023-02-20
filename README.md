@@ -1,24 +1,19 @@
-# Bank-Management
+Bank-Management
+==================
 A bank that manages checking savings and loan accounts, transactions being made inside of each account 
 
-CHEQUING ACCOUNT
------
-A chequing account contains an id, name, and balance. A chequing account allows users to deposit or withdraw an amount of money. The chequing account charges an overdraft fee of $5.50 if the amount being withdrawn exceeds the account balance. The overdraft limit is $200.00 dollars. A chequing account is taxable. Income that exceeds $3,000 is taxed 15%.
------
-SAVINGS ACCOUNT
------
-A savings account contains an id, name, and balance. A savings account allows users to deposit or withdraw an amount of money. Deposits are free, but the savings account charges a $5.00 fee for every withdrawal. 
------
-LOAN ACCOUNT
--------
-A loan account contains an id, name, and balance. A loan account allows users to deposit or withdraw an amount of money. A withdrawal can't made if the debt exceeds $10,000. Every withdrawal is charged a fixed interest rate of 2%. 
------
-TRANSACTION
--------
-An account transaction can be: WITHDRAW or DEPOSIT. Every transaction has an id, amount, and timestamp. Transactions must be sorted based on timestamp. A transaction's timestamp must display to the user as a readable date. 
------
-BANK
---------
-The bank keeps a record of every account created and transaction made. The id of a transaction matches the id of an account. Depending on the account, some transactions may be denied. The bank can deduct taxes from taxable accounts. 
---------------------------------------------------------------------------------- 
+Getting Started
+------------------
+To use the program, you can clone the repository and run the Main.java file. The program will prompt you to enter information about the accounts you want to create, and then allow you to perform transactions such as depositing, withdrawing, and transferring funds between accounts.
+
+Features
+----------------
+This bank account management system has the following features:
+- Checking accounts, which allow the user to write checks and withdraw funds.
+- Savings accounts, which earn interest and can be used to transfer funds to and from other accounts.
+- Loan accounts, which enable the user to borrow money and make regular payments.
+- Transactions within each account, including deposits, withdrawals, and transfers.
+- Error handling for cases where the user tries to perform an invalid transaction or enters incorrect account information.
+
+------
 This is a challenge from "The Complete Java Development Bootcamp" course in Udemy Its purpose is to write high quality java code.
