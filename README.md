@@ -17,3 +17,8 @@ This bank account management system has the following features:
 
 ------
 This is a challenge from "The Complete Java Development Bootcamp" course in Udemy Its purpose is to write high quality java code.
+
+
+Licence
+---------------
+This project is licensed under the terms of the [MIT](LICENCE.txt) License.
